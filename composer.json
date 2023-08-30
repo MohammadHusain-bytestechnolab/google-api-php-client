@@ -8,7 +8,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "google/auth": "^1.28",
-        "google/apiclient-services": "dev-main",
+        "google/apiclient-services": "~0.200",
         "firebase/php-jwt": "~6.0",
         "monolog/monolog": "^2.9||^3.0",
         "phpseclib/phpseclib": "^3.0.2",
@@ -43,11 +43,5 @@
         "branch-alias": {
             "dev-main": "2.x-dev"
         }
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/MohammadHusain-bytestechnolab/google-api-php-client-services.git"
-        }
-    ] 
+    }
 }
